@@ -6,7 +6,7 @@
 "    By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/06 19:39:01 by pbondoer          #+#    #+#              "
-"    Updated: 2018/05/09 17:07:46 by kyork            ###   ########.fr        "
+"    Updated: 2026/10/15 11:24:14 by gugu             ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -92,7 +92,7 @@ function! s:line(n)
 endfunction
 
 function! s:user()
-	let l:user = $USER
+	let l:user = "ahervaud"
 	if exists('g:hdr42user')
 		let l:user = g:hdr42user
 	endif
@@ -103,7 +103,7 @@ function! s:user()
 endfunction
 
 function! s:mail()
-	let l:mail = $MAIL
+	let l:mail = "marvin@42.fr"
 	if exists('g:hdr42mail')
 		let l:mail = g:hdr42mail
 	endif
